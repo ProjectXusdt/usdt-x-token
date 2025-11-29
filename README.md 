@@ -1,0 +1,41 @@
+# USDT.x (USDTx) — BEP-20 Token on BNB Smart Chain
+
+**Contract Address:** `YOUR_CONTRACT_ADDRESS_HERE`  
+**Network:** BNB Smart Chain (BSC)  
+**Standard:** BEP-20 (ERC-20 compatible)
+
+USDT.x (USDTx) is a BEP-20 token deployed on the BNB Smart Chain with a fixed initial supply, optional owner-controlled minting, and built-in 1:1 mint/redeem operations using native BSC USDT (0x55d398326f99059fF775485246999027B3197955).
+
+The token inherits the same decimal precision as BSC USDT for maximum compatibility across DeFi, wallets, and smart-contract integrations.
+
+---
+
+## 🔹 Key Features
+
+- **Fixed initial supply** minted at deployment  
+- **Optional additional supply** through owner-controlled minting  
+- **Partial supply minted to contract address**, enabling internal mechanics or liquidity  
+- **1:1 mint/redeem mechanism** with BSC USDT  
+- **Secure transfers** using SafeERC20  
+- **Reentrancy-protected operations**  
+- **Fully open-source and BscScan verified**  
+- **Built on audited OpenZeppelin smart-contract libraries**
+
+---
+
+## 🔹 Technical Details
+
+- **Name:** USDT.x  
+- **Symbol:** USDTx  
+- **Decimals:** matches BSC USDT decimals  
+- **Standard:** ERC-20/BEP-20  
+- **Initial Supply:** split between contract and owner on deployment  
+- **Additional Minting:** owner-only (`ownerMint` function)  
+- **Redeem Logic:** users can redeem USDTx for USDT at a 1:1 ratio when liquidity is available  
+
+---
+
+## 📑 Contract Source Code
+
+The full verified smart-contract source is located in:
+
