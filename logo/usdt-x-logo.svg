@@ -1,3 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-<image href="data:image/png;base64,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" width="32" height="32"/>
+<svg width="32" height="32" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Tether-style hex shield -->
+  <polygon
+    points="256,32 464,160 464,352 256,480 48,352 48,160"
+    fill="#26A17B"/>
+
+  <!-- Тело буквы T -->
+  <rect x="146" y="150" width="220" height="60" fill="#FFFFFF"/>
+  <rect x="231" y="150" width="50" height="230" fill="#FFFFFF"/>
+
+  <!-- Кольцо вокруг T -->
+  <ellipse cx="256" cy="240" rx="150" ry="50"
+           fill="none" stroke="#FFFFFF" stroke-width="22"/>
+
+  <!-- Белый кружок под X -->
+  <circle cx="366" cy="350" r="78"
+          fill="#FFFFFF" stroke="#26A17B" stroke-width="16"/>
+
+  <!-- Градиент для буквы X -->
+  <defs>
+    <linearGradient id="gradX" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Буква X -->
+  <text x="366" y="380"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="90"
+        font-weight="700"
+        text-anchor="middle"
+        fill="url(#gradX)">X</text>
+
 </svg>
